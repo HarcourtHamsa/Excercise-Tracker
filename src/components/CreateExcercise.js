@@ -33,7 +33,8 @@ export default class CreateExcercise extends Component {
   render() {
     return (
       <React.Fragment>
-        <form onSubmit={this.handleSubmit} className="mt-5">
+        <p className="h3 mt-3 ml-5">Create Excercise</p>
+        <form onSubmit={this.handleSubmit} className="mt-5 container">
           <div className="form-control-group">
             <input
               type="number"

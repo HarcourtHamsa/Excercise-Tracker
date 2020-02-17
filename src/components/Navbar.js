@@ -25,8 +25,8 @@ export default function Navbar() {
             <Link to="/" className="nav-item nav-link active">
               Excercises
             </Link>
-            <Link to="/edit/:id" className="nav-item nav-link">
-              Edit Excercise
+            <Link to="/delete/" className="nav-item nav-link">
+              Delete Excercise
             </Link>
             <Link to="/add" className="nav-item nav-link">
               Create Excercise
