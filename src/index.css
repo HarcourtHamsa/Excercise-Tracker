@@ -2,3 +2,23 @@ body,
 html {
   font-family: 'Fredoka One', cursive;
 }
+
+.center-object{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.my-shadow{
+  box-shadow: 10px 10px 4px gray;
+  border: 2px solid black;
+  
+}
+
+.copyright{
+  transform: rotate(90deg);
+  position: absolute;
+  right: -7%;
+  top: 70%;
+}
