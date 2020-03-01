@@ -1,24 +1,70 @@
 body,
 html {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Raleway";
 }
 
-.center-object{
+.center-object {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.my-shadow{
+.my-shadow {
   box-shadow: 10px 10px 4px gray;
   border: 2px solid black;
-  
 }
 
-.copyright{
+.copyright {
   transform: rotate(90deg);
   position: absolute;
   right: -7%;
   top: 70%;
+}
+
+.border-left-danger {
+  border-left: 2px solid salmon;
+}
+
+.border-left-success {
+  border-left: 2px solid green;
+}
+
+.alert-dark {
+  background-color: #343a40;
+  color: snow;
+}
+
+.peach-gradient {
+  background: linear-gradient(to right, #e44d2c, #f16529);
+  border-radius: 3em;
+  color: #fff;
+}
+
+.yellow-gradient {
+  background: linear-gradient(to right, #fdc830, #f37335, #f27121);
+}
+
+.blue-gradient {
+  background: linear-gradient(to right, #00d2ff, #3a7bd5);
+}
+
+.nelson-gradient {
+  background: linear-gradient(to right, #f2709c, #ff9472);
+}
+
+.orange-gradient {
+  background-color: #fbb034;
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+
+.my-jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/alex-knight-2EJCSULRwC8-unsplash.jpg");
+  /* background: linear-gradient(rgba(0,0,0,0.5)); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
